@@ -1,1 +1,19 @@
-
+.social-btn {
+  display: block;
+  width: 40%;
+  height: 100px;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(top, #4C4CFF, #1a82f7);
+  margin: 0 auto;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #999;
+  box-shadow: 2px 2px 5px #888;
+  text-align: center;
+  line-height: 100px;
+  font-size: 3em;
+}
+.social-btn:hover {
+  text-decoration: none;
+  color: lightblue;
+}
