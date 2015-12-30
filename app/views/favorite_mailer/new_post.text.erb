@@ -1,0 +1,4 @@
+You're now following "<%= @post.title %>, you will be notified of all comments. If you don't want to recieve notifications, unfavorite your post"
+ <%= "=" * (@post.title.length + 12) %>
+
+ Visit online at: <%= topic_post_url(@post.topic, @post) %>
