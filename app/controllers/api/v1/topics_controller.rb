@@ -48,6 +48,3 @@ class Api::V1::TopicsController < Api::V1::BaseController
      params.require(:topic).permit(:name, :description, :public)
    end
 end
-
-
-curl -H "Content-type: application/json" -H "Authorization: Token T9tg7vZhINvpR4DwL/PxH7u2bdRKDKn6K0BiaHFH28NGXI3GMFRk0k1424NsYfVcttNQJtF4eVDi5kTw4+v4BQ==" -X POST -d '{"topic": {"name":"Drastic Voyage: Part II", "description":"The team\'s mission inside Dr. Kovacs goes awry, and they are blacklisted by the CIA."}}' http://localhost:3000/api/v1/topics/
